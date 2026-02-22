@@ -41,7 +41,7 @@ table{
 }
 th{
     color: black;
-    font-size: 5vh;
+    font-size: 16px;
     text-align: center;
     border: 2px solid rgb(56, 69, 128);
     z-index: 101;
@@ -59,9 +59,10 @@ background-color: transparent;
     height: 100%;
     border: none;
     color: black;
-    font-size: 5vh;
+    font-size: 16px;
     cursor: pointer;
     font-family: "times new roman", serif;
     font-weight: bold; 
 
 }
+
