@@ -3,6 +3,8 @@ body{
     padding-top: 4vh;
 }
 table{
+    width: 100%;
+    height: auto;
     background-color: rgb(88, 146, 137);
     width: 100vw;
     height: 7vh;
@@ -61,4 +63,5 @@ background-color: transparent;
     cursor: pointer;
     font-family: "times new roman", serif;
     font-weight: bold; 
+
 }
