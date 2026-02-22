@@ -56,6 +56,24 @@ ul{
 li p{
     font-size:18px;
 }
+.contattiBox{
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contattoRiga{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    font-size:18px;
+}
+
+.iconaContatto{
+    width:30px;
+    height:30px;
+}
 
 /* Responsive mobile */
 @media (max-width:768px){
@@ -73,3 +91,4 @@ li p{
         font-size:16px;
     }
 }
+
