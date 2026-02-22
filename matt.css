@@ -1,7 +1,7 @@
 body{
-    background-color: rgb(122, 160, 154);
+    background-color: rgb(122,160,154);
     margin:0;
-    padding-top:80px;
+    padding-top:90px;
     font-family: "Times New Roman", serif;
 }
 
@@ -15,40 +15,52 @@ body{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    gap:40px;
+    gap:20px;
     padding:15px;
     border-bottom:2px solid rgb(0,1,66);
     z-index:1000;
 }
 
+/* Pulsanti navbar veri */
 .navbar a{
-    color:black;
     text-decoration:none;
+    color:black;
     font-size:18px;
     font-weight:bold;
+    padding:10px 18px;
+    border-radius:8px;
+    background: rgba(255,255,255,0.15);
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+    transition:0.3s;
 }
 
-/* CONTENUTO HOME */
+.navbar a:hover{
+    background: rgba(255,255,255,0.35);
+    transform: translateY(-2px);
+}
+
+/* HOME */
 .contentHome{
     display:flex;
-    flex-wrap:wrap;
-    gap:30px;
-    padding:30px;
+    gap:40px;
+    padding:40px;
     align-items:flex-start;
 }
 
+/* Immagine home */
 .homeImg{
     width:320px;
     max-width:100%;
-    border-radius:10px;
+    border-radius:12px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.25);
 }
 
+/* Testo home */
 .homeText{
     flex:1;
     min-width:250px;
 }
 
-/* TESTI */
 p{
     font-size:18px;
     line-height:1.6;
@@ -56,7 +68,7 @@ p{
 
 /* LISTA ESPERIENZE */
 ul{
-    padding:30px;
+    padding:40px;
 }
 
 li p{
@@ -65,10 +77,10 @@ li p{
 
 /* CONTATTI */
 .contattiBox{
-    padding:30px;
+    padding:40px;
     display:flex;
     flex-direction:column;
-    gap:20px;
+    gap:25px;
 }
 
 .contattoRiga{
@@ -83,7 +95,7 @@ li p{
     height:30px;
 }
 
-/* IMMAGINI GENERALI */
+/* IMMAGINI */
 img{
     max-width:100%;
     height:auto;
@@ -92,22 +104,37 @@ img{
 /* MOBILE */
 @media (max-width:768px){
 
-    .navbar{
-        flex-direction:column;
-        gap:10px;
-        padding:20px;
-    }
-
     body{
         padding-top:160px;
+    }
+
+    .navbar{
+        flex-direction:column;
+        align-items:center;
+        gap:12px;
+    }
+
+    .navbar a{
+        width:80%;
+        text-align:center;
+    }
+
+    .contentHome{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        padding:25px;
+    }
+
+    .homeImg{
+        width:220px;
     }
 
     p, li p{
         font-size:16px;
     }
 
-    .contentHome{
-        flex-direction:column;
+    ul{
         padding:20px;
     }
 }
