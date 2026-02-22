@@ -1,7 +1,7 @@
 body{
     background-color: rgb(122,160,154);
     margin:0;
-    padding-top:80px;
+    padding-top:50px;
     font-family:"Times New Roman", serif;
 }
 
@@ -65,7 +65,7 @@ p{
 
 /* LISTA */
 ul{
-    padding:10px 4%;
+    padding:15px 5%;
     max-width:900px;
 }
 
@@ -103,7 +103,7 @@ li p{
 
     /* BODY */
     body{
-        padding-top:180px;
+        padding-top:140px;
     }
 
     /* NAVBAR — 2 pulsanti per riga */
@@ -159,5 +159,6 @@ li p{
     }
 
 }
+
 
 
