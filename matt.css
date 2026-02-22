@@ -1,7 +1,7 @@
 body{
     background-color: rgb(122,160,154);
     margin:0;
-    padding-top:110px;
+    padding-top:80px;
     font-family:"Times New Roman", serif;
 }
 
@@ -42,8 +42,8 @@ body{
 /* HOME */
 .contentHome{
     display:flex;
-    gap:25px;
-    padding:25px 6%;
+    gap:10px;
+    padding:10px 4%;
     align-items:center;
 }
 
@@ -65,7 +65,7 @@ p{
 
 /* LISTA */
 ul{
-    padding:20px 6%;
+    padding:10px 4%;
     max-width:900px;
 }
 
@@ -80,7 +80,7 @@ li p{
 
 /* CONTATTI */
 .contattiBox{
-    padding:20px 6%;
+    padding:10px 4%;
     display:flex;
     flex-direction:column;
     gap:25px;
@@ -89,7 +89,7 @@ li p{
 .contattoRiga{
     display:flex;
     align-items:center;
-    gap:10px;
+    gap:7px;
     font-size:19px;
 }
 
@@ -119,7 +119,7 @@ li p{
         width:100%;
         text-align:center;
         font-size:16px;
-        padding:14px 10px;
+        padding:7px 5px;
         box-sizing:border-box;
     }
 
@@ -127,8 +127,8 @@ li p{
     .contentHome{
         flex-direction:column;
         text-align:center;
-        padding:15px 4%;
-        gap:15px;
+        padding:7px 3%;
+        gap:7px;
     }
 
     /* IMMAGINI HOME */
@@ -150,8 +150,8 @@ li p{
 
     /* CONTATTI */
     .contattiBox{
-        padding:15px 4%;
-        gap:10px;
+        padding:7px 3%;
+        gap:5px;
     }
 
     .contattoRiga{
@@ -159,4 +159,5 @@ li p{
     }
 
 }
+
 
