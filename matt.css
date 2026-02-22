@@ -110,8 +110,8 @@ li p{
     .navbar{
         display:grid;
         grid-template-columns: repeat(2, 1fr);
-        gap:15px;
-        padding:20px 10px;
+        gap:10px;
+        padding:15px 7px;
         justify-items:center;
     }
 
@@ -119,7 +119,7 @@ li p{
         width:100%;
         text-align:center;
         font-size:16px;
-        padding:7px 15px;
+        padding:10px 8px;
         margin: 0px 5px;
         box-sizing:border-box;
     }
@@ -160,6 +160,7 @@ li p{
     }
 
 }
+
 
 
 
